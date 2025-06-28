@@ -15,6 +15,7 @@ const App = () => {
   const addMiniTask = () => {
     if (!isMini) {
       console.log(miniTasks);
+      console.log("another feat")
       setMiniTasks([]);
       return;
     }
