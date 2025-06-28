@@ -14,6 +14,7 @@ const App = () => {
   }, [miniTasksRaw]);
   const addMiniTask = () => {
     if (!isMini) {
+      console.log(miniTasks);
       setMiniTasks([]);
       return;
     }
